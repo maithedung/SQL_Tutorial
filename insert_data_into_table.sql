@@ -1,12 +1,12 @@
---insert into EmployeeGraphics values
---(1001, 'Dung', 'The', 30, 'Male'),
---(1002, 'Ken', 'The', 32, 'Male'),
---(1003, 'Van', 'The', 31, 'Male'),
---(1004, 'Anh', 'The', 20, 'Male'),
---(1005, 'Mai', 'The', 10, 'Female'),
---(1006, 'Nhu', 'The', 39, 'Female'),
---(1007, 'Nguyet', 'The', 20, 'Female'),
---(1008, 'Nhung', 'The', 15, 'Female')
+insert into EmployeeGraphics values
+(1001, 'Dung', 'The', 30, 'Male'),
+(1002, 'Ken', 'The', 32, 'Male'),
+(1003, 'Van', 'The', 31, 'Male'),
+(1004, 'Anh', 'The', 20, 'Male'),
+(1005, 'Mai', 'The', 10, 'Female'),
+(1006, 'Nhu', 'The', 39, 'Female'),
+(1007, 'Nguyet', 'The', 20, 'Female'),
+(1008, 'Nhung', 'The', 15, 'Female')
 
 insert into EmployeeSalary values
 (1001, 'Salesman', 45000),
@@ -18,3 +18,10 @@ insert into EmployeeSalary values
 (1007, 'Supplier Relations', 41000),
 (1008, 'Salesman', 48000),
 (1009, 'Accountant', 42000)
+
+insert into WareHouseEmployeeGraphics values
+(1030, 'Anh', 'Van', 30, 'Male'),
+(1031, 'Ha', 'Huy', 30, 'Male'),
+(1032, 'Loc', 'Bao', 30, 'Male'),
+(1033, 'Thin', 'Tran', 30, 'Male'),
+(1034, 'Anh', 'Trung', 30, 'Male')
